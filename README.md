@@ -1,4 +1,4 @@
-# Stock_notifier
+# Stock Notifier
 
 Stock Notifier is a Python Module that enables you to send Stock update via SMS
 
