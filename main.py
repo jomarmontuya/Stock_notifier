@@ -16,11 +16,11 @@ ACCOUNT_SID = os.environ.get("ACCOUNT_SID")
 ACCOUNT_TOKEN = os.environ.get("ACCOUNT_TOKEN")
 
 # Get your own number from twilio
-FROM_NUMBER = +15625219232
+FROM_NUMBER = +123456789
 # Change to number depending on your need
 # Notice: Free trial projects are only allowed to add verified caller IDs via SMS.
 # https://support.twilio.com/hc/en-us/articles/223180048-Adding-a-Verified-Phone-Number-or-Caller-ID-with-Twilio
-TO_NUMBER = +639981740071
+TO_NUMBER = +123456789
 
 # Create New Instance of Stock Class Pass in Stock auth key from https://www.alphavantage.co/ and stock ticker
 stock = Stock(apikey=STOCK_AUTH_KEY, stock_symbol=STOCK)
